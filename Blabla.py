@@ -18,4 +18,4 @@ async def brainrot(ctx):
     brainrotFinal = brainrotList[randomIndex]
     await ctx.send(f"Your random number is {brainrotFinal}")
 
-bot.run(token="")
+bot.run("TOKEN")
